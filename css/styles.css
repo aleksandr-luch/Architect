@@ -1,0 +1,239 @@
+@font-face {
+    font-family: 'Gothic';
+    src: url(../fonts/gothic.TTF); 
+    }
+body{
+	margin: 0;
+	color: #000;
+	font: 12px Arial, sans-serif;
+	min-width: 320px;
+}
+img{border:0;vertical-align:top;
+	-ms-interpolation-mode:bicubic;
+	max-width: 100%;
+}
+.wrapper{
+	max-width: 1024px;
+	margin: 0 auto;
+}
+#header{	
+	position: relative;
+	height: 100%;
+	border-bottom: 2px solid #000;
+}
+.images-holder:after{
+	position: absolute;
+	content: '';
+	width: 100%;
+	height: 9px;
+	background: url(../images/header-underline.jpg) repeat-x;
+	left: 0;
+	bottom: 0;
+}
+.abs{
+	position: absolute;
+	content:'';
+	width: 35.34%;
+	height: 100%;
+	left: 10%;
+	top: 52px;
+}
+.visitka{
+	background: #fff;
+	border: 3px solid #000;
+	border-collapse: collapse;
+	width: 100%;
+}
+.td-name{
+	width: 38%;
+	text-transform: uppercase;
+	font-size: 16px;
+	padding-left: 20px;
+}
+.td-name span{font-size: 12px;}
+.bord-top-bottom{
+	border-top: 2px solid #000;
+	border-bottom: 2px solid #000;
+}
+.bord-right{
+	border-right: 2px solid #000;
+}
+.bord-left{border-left: 2px solid #000;}
+
+.t-right{text-align: right;}
+.main{
+	background: url(../images/bg-main.jpg);
+	padding-top: 35px;
+}
+#main-nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+}
+#main-nav li {
+    visibility: hidden;
+    padding-left: 250px; 
+    position: relative;
+}
+#main-nav li:before,li:after{
+	position: absolute;
+	content: '';
+	width: 100%;
+	height: 100%;
+	top: 42px;
+	left: 0;
+	background: url(../images/li-before.png) no-repeat;
+	z-index: 1;
+	pointer-events: none;
+}
+#main-nav li:after{
+	top: 0;
+	left: 151px;
+	background: url(../images/vert-line1.png) no-repeat;
+}
+#main-nav li a{
+	font: 48px/1.3 'Gothic';
+	letter-spacing: -6px;
+	word-spacing: 2px;
+	text-decoration: none;
+	color: #000;
+	display: inline-block;
+}
+
+@keyframes traffic {
+ 100%{visibility: visible;}
+}
+@keyframes traffic1 {
+  100%{visibility: visible;}
+}
+@keyframes traffic2 {
+  100%{visibility: visible;}
+}
+@keyframes traffic3 {
+  100%{visibility: visible;}
+}
+@keyframes traffic4 {
+  100%{visibility: visible;}
+}
+@keyframes traffic5 {
+  100%{visibility: visible;}
+}
+@keyframes traffic6 {
+  100%{visibility: visible;}
+}
+@keyframes traffic7 {
+  100%{visibility: visible;}
+}
+@keyframes traffic8 {
+  100%{visibility: visible;}
+}
+@keyframes traffic9 {
+  100%{visibility: visible;}
+}
+@keyframes traffic10 {
+  100%{visibility: visible;}
+}
+/*экспиримент!!!!!!
+*/
+@-webkit-keyframes traffic {
+ 100%{visibility: visible;}
+}
+@-webkit-keyframes traffic1 {
+  100%{visibility: visible;}
+}
+@-webkit-keyframes traffic2 {
+  100%{visibility: visible;}
+}
+@-webkit-keyframes traffic3 {
+  100%{visibility: visible;}
+}
+@-webkit-keyframes traffic4 {
+  100%{visibility: visible;}
+}
+@-webkit-keyframes traffic5 {
+  100%{visibility: visible;}
+}
+@-webkit-keyframes traffic6 {
+  100%{visibility: visible;}
+}
+@-webkit-keyframes traffic7 {
+  100%{visibility: visible;}
+}
+@-webkit-keyframes traffic8 {
+  100%{visibility: visible;}
+}
+@-webkit-keyframes traffic9 {
+  100%{visibility: visible;}
+}
+@-webkit-keyframes traffic10 {
+  100%{visibility: visible;}
+}
+
+#main-nav li:first-child:before{
+	background: url(../images/first-li1.png) no-repeat;
+	top: 2px;
+	left: 115px;
+}
+#main-nav li:first-child:after{
+	background: url(../images/vert-line1.png) repeat-y;
+	top: 72px;
+}
+#main-nav li:last-child:after{
+	background: url(../images/last-li.png.) no-repeat;
+	top: 0px;
+	left: 138px;
+}
+#main-nav li:last-child:before{
+	visibility: hidden;
+}
+#main-nav li:nth-of-type(1) {
+  margin-bottom: 35px;
+  animation: traffic 1s forwards;
+  -webkit-animation: traffic 1s forwards;
+}
+#main-nav li:nth-of-type(2) {
+  margin-bottom: 5px;
+  	animation: traffic1 2s forwards 1.1s;
+  	-webkit-animation: traffic1 2s forwards 1.1s;
+}
+#main-nav li:nth-of-type(3) {
+	animation: traffic2 2s forwards 1.3s;
+  	-webkit-animation: traffic2 2s forwards 1.3s;
+}
+#main-nav li:nth-of-type(4) {
+	animation: traffic3 2s forwards 1.5s;
+  	-webkit-animation: traffic3 2s forwards 1.5s;
+}
+#main-nav li:nth-of-type(5) {
+	animation: traffic4 2s forwards 1.7s;
+  	-webkit-animation: traffic4 2s forwards 1.7s;
+}
+#main-nav li:nth-of-type(6) {
+	animation: traffic5 2s forwards 1.9s;
+  	-webkit-animation: traffic5 2s forwards 1.9s;
+}
+#main-nav li:nth-of-type(7) {
+	animation: traffic6 2s forwards 2.1s;
+  -webkit-animation: traffic6 2s forwards 2.1s;
+}
+#main-nav li:nth-of-type(8) {
+	animation: traffic7 2s forwards 2.3s;
+  	-webkit-animation: traffic7 2s forwards 2.3s;
+}
+#main-nav li:nth-of-type(9) {
+	animation: traffic8 2s forwards 2.5s;
+  	-webkit-animation: traffic8 2s forwards 2.5s;
+}
+#main-nav li:nth-of-type(10) {
+	animation: traffic9 2s forwards 2.7s;
+  	-webkit-animation: traffic9 2s forwards 2.7s;
+}
+#main-nav li:nth-of-type(11){
+	animation: traffic10 2s forwards 3s;
+	-webkit-animation: traffic10 2s forwards 3s;
+	padding-bottom: 130px;
+	width: 27px;
+	height: 100%;
+}
+
